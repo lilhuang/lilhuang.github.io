@@ -1,30 +1,147 @@
 
 body{
-	margin: 40px auto;
-	max-width: 650px;
+	margin: 50px auto;
+	max-width: 1000px;
 	line-height: 1.6;
 	font-size: 18px;
 	color: #444;
 	padding: 0 10px;
 }
 
-h1,h2,h3{
+h1{
 	line-height: 1.2;
+    text-align: center;
 }
 
-h1.header_name{
+h2,h3{
+    line-height: 1.2;
+}
+
+p.header_name{
 	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 p.header_email{
 	text-align: center;
+	font-size: 15px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-img{
+img.myface_main{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+img.git_icon{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+img.cv_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+img.friends_icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+a.outtake_photos:link, a.outtake_photos:visited{
+	color: #444;
+	text-decoration: none;
+}
+
+a.outtake_photos:hover{
+	color: #87CEFA;
+	text-decoration: none;
+}
+
+a.outtake_photos:active{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+
+a.original_link:link, a.original_link:visited, a.original_link:hover, a.original_link:active{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.column{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+}
+
+.left_big{
+	padding: 10px;
+	height: 280px;
+	width: 35%;
+}
+
+.right_big{
+    text-align: left;
+    padding: 10px;
+    height: 280px;
+    width: 60%;
+}
+
+.left_small {
+	height: 100px;
+	width: 20%;
+}
+
+.middle_small {
+    height: 100px;
+    width: 20%;
+}
+
+.right_small {
+    height: 100px;
+    width: 20%;
+}
+
+.row{
+    text-align: center;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+img.myface{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+p.funfact{
+    color: #FFFFFF;
 }
 
 
