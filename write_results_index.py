@@ -273,13 +273,13 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         bucketpath_ib_gt = os.path.join("../../../", "outputs", results_dir, example, "1_gt.png")
         
         if source == "atd12k":
-            bucketpath_ib_animeinterp = os.path.join("../../../", "outputs", "baselines", "AnimeInterp", "final_atd12k_baseline", example, "im1_est.png")
-            bucketpath_ib_dain = os.path.join("../../../", "outputs", "baselines", "DAIN", "atd12k_test", example, "im1_est.png")
-            bucketpath_ib_rife = os.path.join("../../../", "outputs", "baselines", "RIFE", "final_atd12k_test", example, "im1_est.png")
+            bucketpath_ib_animeinterp = os.path.join("../../../", "baselines", "AnimeInterp", "final_atd12k_baseline", example, "im1_est.png")
+            bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "atd12k_test", example, "im1_est.png")
+            bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_atd12k_test", example, "im1_est.png")
         else:
-            bucketpath_ib_animeinterp = os.path.join("../../../", "outputs", "baselines", "AnimeInterp", "final_SU_7ib_baseline", example, "im1_est.png")
-            bucketpath_ib_dain = os.path.join("../../../", "outputs", "baselines", "DAIN", "SU_256x128", sample_name, "im1_est.png")
-            bucketpath_ib_rife = os.path.join("../../../", "outputs", "baselines", "RIFE", "final_SU_test", sample_name, "im1_est.png")
+            bucketpath_ib_animeinterp = os.path.join("../../../", "baselines", "AnimeInterp", "final_SU_7ib_baseline", example, "im1_est.png")
+            bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "SU_256x128", sample_name, "im1_est.png")
+            bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_SU_test", sample_name, "im1_est.png")
 
         file.write("<div class=\"column\">\n")
 
@@ -481,7 +481,7 @@ def main_get_model_combinations():
     root = "/fs/vulcan-projects/anim_inb_lilhuang"
     sources = ["SU", "atd12k"]
 
-    nextfile = open("index_test.html", "w")
+    nextfile = open("index.html", "w")
     nextfile.write("<html>\n")
     nextfile.write("<head>\n<title>Results by model combination</title>\n")
     nextfile.write("<meta charset=\"utf-8\">\n")
@@ -540,18 +540,6 @@ def main():
         indexfile.write("</p>\n")
         get_source_links(model, sources, root)
 
-    #write model combo link
-    targetpath_combo = "./test_results/index.html"
-    if not os.path.exists("./test_results"):
-        os.mkdir("test_results")
-    indexfile.write("<p>\n")
-    indexfile.write("<a href=\""+targetpath_combo+"\" target=\"_blank\">test_results (with different model combinations)</a>\n")
-    indexfile.write("</p>\n")
-    get_model_combinations(sources, root)
-
-
-
-
     indexfile.write("</body>\n</html>\n")
 
     indexfile.close()
@@ -560,8 +548,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    # main_get_model_combinations()
+    # main()
+    main_get_model_combinations()
 
 
 
