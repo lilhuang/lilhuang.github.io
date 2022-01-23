@@ -274,12 +274,12 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         
         if source == "atd12k":
             bucketpath_ib_animeinterp = os.path.join("../../../", "baselines", "AnimeInterp", "final_atd12k_baseline", example, "im1_est.png")
-            bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "atd12k_test", example, "im1_est.png")
-            bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_atd12k_test", example, "im1_est.png")
+            bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "atd12k_test", example, "im1_est.jpg")
+            bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_atd12k_test", example, "im1_est.jpg")
         else:
             bucketpath_ib_animeinterp = os.path.join("../../../", "baselines", "AnimeInterp", "final_SU_7ib_baseline", example, "im1_est.png")
-            bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "SU_256x128", sample_name, "im1_est.png")
-            bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_SU_test", sample_name, "im1_est.png")
+            bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "SU_256x128", sample_name, "im1_est.jpg")
+            bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_SU_test", sample_name, "im1_est.jpg")
 
         file.write("<div class=\"column\">\n")
 
@@ -357,6 +357,7 @@ def write_our_test_output_page(seg, arm, results_dir, source, root):
 
     local_path = os.path.join(root, "outputs", results_dir)
     all_examples = os.listdir(local_path)
+    all_examples.sort()
     for example in all_examples:
         file.write("<div class=\"row\">\n")
 
@@ -522,7 +523,7 @@ def main():
     sources = ["SU", "atd12k"]
 
 
-    indexfile = open("index.html", "w")
+    indexfile = open("index_test.html", "w")
     indexfile.write("<html>\n")
     indexfile.write("<head>\n<title>Results</title>\n")
     indexfile.write("<meta charset=\"utf-8\">\n")
