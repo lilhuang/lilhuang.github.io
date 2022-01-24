@@ -218,6 +218,7 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         local_DAIN_path = "/vulcanscratch/lilhuang/DAIN/outputs/SU_128x256"
         local_AnimeInterp_path = "/vulcanscratch/lilhuang/AnimeInterp/outputs/final_SU_7ib_baseline"
         local_RIFE_path = "/vulcanscratch/lilhuang/arXiv2020-RIFE/outputs/final_SU_test"
+        gif_root = os.path.join(root, "gif_atd12k")
     else:
         local_DAIN_path = "/vulcanscratch/lilhuang/DAIN/outputs/atd12k_test"
         local_AnimeInterp_path = "/vulcanscratch/lilhuang/AnimeInterp/outputs/final_atd12k_baseline"
@@ -276,6 +277,7 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
             bucketpath_ib_animeinterp = os.path.join("../../../", "baselines", "AnimeInterp", "final_atd12k_baseline", example, "frame2_est.png")
             bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "atd12k_test", example, "im1_est.jpg")
             bucketpath_ib_rife = os.path.join("../../../", "baselines", "RIFE", "final_atd12k_test", example, "im1_est.jpg")
+            bucketpath_gif = os.path.join("../../../", "outputs", "gif_atd12k", example)
         else:
             bucketpath_ib_animeinterp = os.path.join("../../../", "baselines", "AnimeInterp", "final_SU_7ib_baseline", example, "1_est.png")
             bucketpath_ib_dain = os.path.join("../../../", "baselines", "DAIN", "SU_128x256", sample_name, "im1_est.jpg")
@@ -286,6 +288,8 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib_gt+"\">\n")
         file.write("<img src=\""+bucketpath_1+"\">\n")
+        if source == "atd12k":
+            file.write("<img src=\""+bucketpath_gif+"/gt.gif\">\n")
         file.write("</div>\n")
 
         file.write("<div class=\"column\">\n")
@@ -293,6 +297,8 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib+"\">\n")
         file.write("<img src=\""+bucketpath_1+"\">\n")
+        if source == "atd12k":
+            file.write("<img src=\""+bucketpath_gif+"/gen.gif\">\n")
         file.write("</div>\n")
 
         file.write("<div class=\"column\">\n")
@@ -300,6 +306,8 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib_animeinterp+"\">\n")
         file.write("<img src=\""+bucketpath_1+"\">\n")
+        if source == "atd12k":
+            file.write("<img src=\""+bucketpath_gif+"/animeinterp.gif\">\n")
         file.write("</div>\n")
 
         file.write("<div class=\"column\">\n")
@@ -307,6 +315,8 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib_dain+"\">\n")
         file.write("<img src=\""+bucketpath_1+"\">\n")
+        if source == "atd12k":
+            file.write("<img src=\""+bucketpath_gif+"/dain.gif\">\n")
         file.write("</div>\n")
 
         file.write("<div class=\"column\">\n")
@@ -314,6 +324,8 @@ def write_compare_test_output_page(seg, arm, results_dir, metrics_dir, source, r
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib_rife+"\">\n")
         file.write("<img src=\""+bucketpath_1+"\">\n")
+        if source == "atd12k":
+            file.write("<img src=\""+bucketpath_gif+"/rife.gif\">\n")
         file.write("</div>\n")
 
         file.write("</div>\n")
@@ -373,8 +385,8 @@ def write_our_test_output_page(seg, arm, results_dir, source, root):
         bucketpath_ib_from_gt_mask = os.path.join("../../../", "outputs", results_dir, example, "1_gen_from_gt_mask.png")
         bucketpath_ib_mask = os.path.join("../../../", "outputs", results_dir, example, "1_est_mask.png")
         bucketpath_ib_mask_gt = os.path.join("../../../", "outputs", results_dir, example, "1_mask.png")
-        bucketpath_ib_f12 = os.path.join("../../../", "outputs", results_dir, example, "1_F12.png")
-        bucketpath_ib_f21 = os.path.join("../../../", "outputs", results_dir, example, "1_F21.png")
+        bucketpath_f12 = os.path.join("../../../", "outputs", results_dir, example, "1_F12.jpg")
+        bucketpath_f21 = os.path.join("../../../", "outputs", results_dir, example, "1_F21.jpg")
         bucketpath_ib_resid = os.path.join("../../../", "outputs", results_dir, example, "1_residual.png")
 
         file.write("<img src=\""+bucketpath_0+"\">\n")
@@ -408,6 +420,13 @@ def write_our_test_output_page(seg, arm, results_dir, source, root):
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib_mask_gt+"\">\n")
         file.write("<img src=\""+bucketpath_1+"\">\n")
+        file.write("</div>\n")
+
+        file.write("<div class=\"column\">\n")
+
+        file.write("<img src=\""+bucketpath_f12+"\">\n")
+        file.write("<img src=\""+bucketpath_f21+"\">\n")
+        file.write("<img src=\""+bucketpath_ib_resid+"\">\n")
         file.write("</div>\n")
 
         file.write("</div>\n")
