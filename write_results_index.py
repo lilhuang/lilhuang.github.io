@@ -353,6 +353,9 @@ def write_our_test_output_page(seg, arm, results_dir, source, root):
     file.write("<div class=\"column\">\n")
     file.write("<h4>Ground truth mask</h4>\n")
     file.write("</div>\n")
+    file.write("<div class=\"column\">\n")
+    file.write("<h4>F12, F21, resid</h4>\n")
+    file.write("</div>\n")
     file.write("</div>\n")
 
     local_path = os.path.join(root, "outputs", results_dir)
@@ -370,6 +373,9 @@ def write_our_test_output_page(seg, arm, results_dir, source, root):
         bucketpath_ib_from_gt_mask = os.path.join("../../../", "outputs", results_dir, example, "1_gen_from_gt_mask.png")
         bucketpath_ib_mask = os.path.join("../../../", "outputs", results_dir, example, "1_est_mask.png")
         bucketpath_ib_mask_gt = os.path.join("../../../", "outputs", results_dir, example, "1_mask.png")
+        bucketpath_ib_f12 = os.path.join("../../../", "outputs", results_dir, example, "1_F12.png")
+        bucketpath_ib_f21 = os.path.join("../../../", "outputs", results_dir, example, "1_F21.png")
+        bucketpath_ib_resid = os.path.join("../../../", "outputs", results_dir, example, "1_residual.png")
 
         file.write("<img src=\""+bucketpath_0+"\">\n")
         file.write("<img src=\""+bucketpath_ib+"\">\n")
