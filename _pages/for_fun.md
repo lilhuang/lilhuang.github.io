@@ -16,7 +16,7 @@ I powerlift regularly. My best squat is 210x2, best bench is 135x1, and best dea
 
 I play pickup ultimate semi-regularly, weather permitting. In college, I won a couple of intramural tournaments, but mostly due to my teammates, not me. It is fun and forces me to actually do cardio.
 
-I used to do synchronized swimming. I miss the teamwork and the sparkly suits. I do not miss the gelatin.
+I used to do synchronized swimming. I miss the teamwork and the sparkly suits. I do not miss the [gelatin](https://www.youtube.com/watch?v=tljtD49-b2o).
 
 ## Music
 
