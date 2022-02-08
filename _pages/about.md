@@ -13,10 +13,10 @@ When I'm not doing grad school stuff, I like to [draw](https://www.instagram.com
 
 <script>
     function switch2Cartoon(x) {
-        x.source="../images/my_images/Me_doodle_2021.jpg";
+        x.src="../images/my_images/Me_doodle_2021.jpg";
     }
 
     function switchBack(x) {
-        x.source="../images/my_images/MeHeadshot.jpeg";
+        x.src="../images/my_images/MeHeadshot.jpeg";
     }
 </script>
