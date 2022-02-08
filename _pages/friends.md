@@ -20,4 +20,5 @@ Friendship is perhaps the purest form of human relationships. I am lucky enough 
   - [Saksham Suri](https://www.cs.umd.edu/~sakshams/)
   - [Pulkit Kumar](https://www.cs.umd.edu/~pulkit/)
   - [Marina Knittel](https://mknittel.github.io/)
+  - [Pema McLaughlin](https://religious-studies.northwestern.edu/people/graduate-students/pema-mclaughlin.html)
 
