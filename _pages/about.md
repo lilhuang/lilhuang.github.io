@@ -17,6 +17,6 @@ When I'm not doing grad school stuff, I like to [draw](https://www.instagram.com
     }
 
     function switchBack(x) {
-        x.src="../images/my_images/Me_2022.jpg";
+        x.src="../images/my_images/Me_August_2022.JPG";
     }
 </script>
