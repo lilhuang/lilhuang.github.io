@@ -4,7 +4,7 @@ title: Friends
 permalink: /friends/
 ---
 
-Friendship is perhaps the purest form of human relationships. I am lucky enough to have many. I celebrate my friends here by linking their websites below, in no particular order.
+I love my friends very much. I am lucky enough to have many. I celebrate my friends here by linking their websites below, in no particular order.
 
   - [Michael Rosenberg](https://mrosenberg.pub/)
   - [Pranav Srinivasan](http://www-personal.umich.edu/~pransrin/)
