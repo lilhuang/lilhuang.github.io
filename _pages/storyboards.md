@@ -100,26 +100,26 @@ $(document).ready(function() {
   $('.thumbnail-gallery div').click(function() {
     var index = $(this).index();  // Get the index of the clicked thumbnail
     console.log("Thumbnail clicked, index:", index);
-    var fullSizeImages = $('.full-size-gallery .full-image');
+    // var fullSizeImages = $('.full-size-gallery .full-image');
     
-    // Hide all full-size images and show the one corresponding to the clicked thumbnail
-    fullSizeImages.hide();
-    $(fullSizeImages[index]).show();  // Show the full-size image based on the index
+    // // Hide all full-size images and show the one corresponding to the clicked thumbnail
+    // fullSizeImages.hide();
+    // $(fullSizeImages[index]).show();  // Show the full-size image based on the index
     
-    // Hide the thumbnails and show the full-size gallery
-    $('.thumbnail-gallery').hide();
-    $('.full-size-gallery').show();
+    // // Hide the thumbnails and show the full-size gallery
+    // $('.thumbnail-gallery').hide();
+    // $('.full-size-gallery').show();
 
-    // Initialize the Slick carousel for the full-size gallery only once
-    if (!$('.full-size-gallery').hasClass('slick-initialized')) {
-      $('.full-size-gallery').slick({
-        infinite: true,
-        arrows: true,  // Enable navigation arrows
-        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-        nextArrow: '<button type="button" class="slick-next">Next</button>',
-        fade: true,  // Enable fade transition between images
-      });
-    }
+    // // Initialize the Slick carousel for the full-size gallery only once
+    // if (!$('.full-size-gallery').hasClass('slick-initialized')) {
+    //   $('.full-size-gallery').slick({
+    //     infinite: true,
+    //     arrows: true,  // Enable navigation arrows
+    //     prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+    //     nextArrow: '<button type="button" class="slick-next">Next</button>',
+    //     fade: true,  // Enable fade transition between images
+    //   });
+    // }
   });
 
   // Close the full-size gallery
