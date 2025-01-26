@@ -139,16 +139,20 @@ $(document).ready(function() {
   $('.next-image').click(function() {
     var currentIndex = $('.full-size-gallery').data('currentIndex');
     var totalImages = $('.full-size-gallery .full-image').length;
-    var nextIndex = (currentIndex + 1) % totalImages;  // Wrap around to first image
-    showFullSizeImage(nextIndex);  // Show the next image
+    if ((currentIndex + 1) < totalImages) {
+        var nextIndex = (currentIndex + 1); 
+        showFullSizeImage(nextIndex);  // Show the next image
+    }
   });
 
   // Handle previous image navigation
   $('.prev-image').click(function() {
     var currentIndex = $('.full-size-gallery').data('currentIndex');
     var totalImages = $('.full-size-gallery .full-image').length;
-    var prevIndex = (currentIndex - 1 + totalImages) % totalImages;  // Wrap around to last image
-    showFullSizeImage(prevIndex);  // Show the previous image
+    if ((currentIndex - 1) > 0){
+        var prevIndex = (currentIndex - 1)
+        showFullSizeImage(prevIndex);  // Show the previous image
+    }
   });
 });
 </script>
