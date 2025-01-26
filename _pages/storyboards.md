@@ -150,7 +150,7 @@ $(document).ready(function() {
     var currentIndex = $('.full-size-gallery').data('currentIndex');
     var totalImages = $('.full-size-gallery .full-image').length;
     if ((currentIndex - 1) > 0){
-        var prevIndex = (currentIndex - 1)
+        var prevIndex = (currentIndex - 1);
         showFullSizeImage(prevIndex);  // Show the previous image
     }
   });
