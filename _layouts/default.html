@@ -12,6 +12,32 @@
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     {% include analytics_head.html %}
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <style>
+      .main-slider img {
+        width: 100%;  /* Makes the images in the main slider responsive */
+        height: auto;
+      }
+    
+      .thumbnail-slider img {
+        width: 100%;  /* Makes thumbnails responsive */
+        height: auto;
+        cursor: pointer;
+      }
+    
+      .thumbnail-slider {
+        margin-top: 10px;
+      }
+    </style>
+
+    <!-- Slick JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   </head>
 
   <body>
