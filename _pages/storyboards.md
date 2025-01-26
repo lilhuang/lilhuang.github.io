@@ -244,7 +244,7 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
-    <img src="../images/thumbs/Next_5_Spaghetti/next5_spaghetti_img.JPG" alt="Spaghetti Thumbs orig">
+    <img src="../images/thumbs/Next_5_Spaghetti/next5_spaghetti_img.PNG" alt="Spaghetti Thumbs orig">
   </div>
   <div class="thumbnail" data-index="1">
     <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_0.PNG" alt="Spaghetti Thumbs 0">
