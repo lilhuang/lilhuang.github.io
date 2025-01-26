@@ -99,6 +99,7 @@ $(document).ready(function() {
   // When a thumbnail is clicked, show the corresponding full-size image
   $('.thumbnail-gallery div').click(function() {
     var index = $(this).index();  // Get the index of the clicked thumbnail
+    console.log("Thumbnail clicked, index:", index);
     var fullSizeImages = $('.full-size-gallery .full-image');
     
     // Hide all full-size images and show the one corresponding to the clicked thumbnail

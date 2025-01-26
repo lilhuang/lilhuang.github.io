@@ -12,7 +12,7 @@ author: Lillian Huang
 description: aka itsalilstrange
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/me/Me_doodle_2022.jpg
+avatar: ./images/me/Me_doodle_2022.jpg
 
 #
 # Flags below are optional
