@@ -21,6 +21,7 @@ A fully-edited animatic can be seen below:
 
 Thumbnails:
 
+<div class="slideshow" id="holmes_and_moriarty">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
@@ -77,6 +78,7 @@ Thumbnails:
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>
 </div>
+</div>
 
 ---
 ## Western Chase | October 2024
@@ -101,6 +103,7 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
 
 ## Pier Jump | February 2023
 
+<div class="slideshow" id="pier_jump">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
@@ -145,7 +148,7 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>
 </div>
-
+</div>
 
 ---
 ## Wedding | February 2023
@@ -267,7 +270,7 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
 <div class="full-size-gallery">
   <button class="close-gallery">X</button>
   <div class="image-container">
-    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/next5_spaghetti_img.JPG" alt="Spaghetti Orig">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/next5_spaghetti_img.PNG" alt="Spaghetti Orig">
     <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_0.PNG" alt="Spaghetti 0">
     <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_1.PNG" alt="Spaghetti 1">
     <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_2.PNG" alt="Spaghetti 2">
@@ -285,54 +288,57 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function() {
-  // Show the full-size gallery when a thumbnail is clicked
-  $('.thumbnail').click(function() {
-    var index = $(this).data('index');  // Get the index of the clicked thumbnail
-    console.log("thumbnail clicked; index ", index);
-    showFullSizeImage(index);  // Show the corresponding full-size image
-  });
+    // Loop through each slideshow
+    $('.slideshow').each(function() {
+    var slideshowId = $(this).attr('id');  // Get the unique ID for each slideshow
 
-  // Show the full-size image gallery
-  function showFullSizeImage(index) {
-    var fullSizeImages = $('.full-size-gallery .full-image');
-    fullSizeImages.hide();  // Hide all images
+    // Handle thumbnail click to open the full-size gallery
+    $(this).find('.thumbnail').click(function() {
+      var index = $(this).data('index');  // Get the index of the clicked thumbnail
+      showFullSizeImage(slideshowId, index);  // Show the corresponding full-size image for this slideshow
+    });
 
-    // Show the image corresponding to the clicked thumbnail
-    $(fullSizeImages[index]).show();
+    // Show the full-size image gallery
+    function showFullSizeImage(slideshowId, index) {
+        var fullSizeImages = $('#' + slideshowId + ' .full-size-gallery .full-image');
+        fullSizeImages.hide();  // Hide all images
 
-    // Show the full-size gallery
-    $('.thumbnail-gallery').hide();
-    $('.full-size-gallery').show();
+        // Show the image corresponding to the clicked thumbnail
+        $(fullSizeImages[index]).show();
 
-    // Store the current index for navigation
-    $('.full-size-gallery').data('currentIndex', index);
-  }
+        // Show the full-size gallery
+        $('#' + slideshowId + '.thumbnail-gallery').hide();
+        $('#' + slideshowId + '.full-size-gallery').show();
 
-  // Handle closing the gallery
-  $('.close-gallery').click(function() {
-    $('.full-size-gallery').hide();
-    $('.thumbnail-gallery').show();
-  });
-
-  // Handle next image navigation
-  $('.next-image').click(function() {
-    var currentIndex = $('.full-size-gallery').data('currentIndex');
-    var totalImages = $('.full-size-gallery .full-image').length;
-    if ((currentIndex + 1) < totalImages) {
-        var nextIndex = (currentIndex + 1); 
-        showFullSizeImage(nextIndex);  // Show the next image
+        // Store the current index for navigation
+        $('#' + slideshowId + '.full-size-gallery').data('currentIndex', index);
     }
-  });
 
-  // Handle previous image navigation
-  $('.prev-image').click(function() {
-    var currentIndex = $('.full-size-gallery').data('currentIndex');
-    var totalImages = $('.full-size-gallery .full-image').length;
-    if ((currentIndex - 1) >= 0){
-        var prevIndex = (currentIndex - 1);
-        showFullSizeImage(prevIndex);  // Show the previous image
-    }
-  });
+    // Handle closing the gallery
+    $('.close-gallery').click(function() {
+        $('#' + slideshowId + '.full-size-gallery').hide();
+        $('#' + slideshowId + '.thumbnail-gallery').show();
+    });
+
+    // Handle next image navigation
+    $('#' + slideshowId + '.next-image').click(function() {
+        var currentIndex = $('#' + slideshowId + '.full-size-gallery').data('currentIndex');
+        var totalImages = $('#' + slideshowId + '.full-size-gallery .full-image').length;
+        if ((currentIndex + 1) < totalImages) {
+            var nextIndex = (currentIndex + 1); 
+            showFullSizeImage(slideshowId, nextIndex);  // Show the next image
+        }
+    });
+
+    // Handle previous image navigation
+    $('#' + slideshowId + '.prev-image').click(function() {
+        var currentIndex = $('#' + slideshowId + '.full-size-gallery').data('currentIndex');
+        var totalImages = $('#' + slideshowId + '.full-size-gallery .full-image').length;
+        if ((currentIndex - 1) >= 0){
+            var prevIndex = (currentIndex - 1);
+            showFullSizeImage(slideshowId, prevIndex);  // Show the previous image
+        }
+    });
 });
 </script>
 
