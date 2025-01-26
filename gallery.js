@@ -19,7 +19,7 @@ $(document).ready(function() {
         $(fullSizeImages[index]).show();
 
         // Show the full-size gallery
-        $('#' + slideshowId + ' .thumbnail-gallery').hide();
+        // $('#' + slideshowId + ' .thumbnail-gallery').hide();
         $('#' + slideshowId + ' .full-size-gallery').show();
 
         // Store the current index for navigation
