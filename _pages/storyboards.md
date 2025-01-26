@@ -10,14 +10,14 @@ A drama sequence (loosely) adapted from Sir Arthur Conan Doyle's *The Final Prob
 
 This was a personal project from the StoryboardArt Story Mentorship.
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 5%; margin: 0 auto;">
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 75%; margin: 0 auto;">
 <iframe src="https://speakerdeck.com/player/1452122a26a64492855944e36050dde7" style="top: 0; left: 0; width: 75%; height: 75%; position: absolute; border: 0; margin: auto;" allowfullscreen scrolling="no">
 </iframe>
 </div>
 
 A fully-edited animatic can be seen below:
 
-<iframe width="400" height="225" src="https://www.youtube.com/embed/bhL5Gn70Ngg" title="Animatic -- Holmes and Moriarty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="502" height="282" src="https://www.youtube.com/embed/bhL5Gn70Ngg" title="Animatic -- Holmes and Moriarty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Western Chase | October 2024
 
@@ -29,7 +29,7 @@ This was an assignment from the StoryboardArt Story Mentorship, adapted from a s
 
 A fully-edited animatic can be seen below:
 
-<iframe width="1004" height="565" src="https://www.youtube.com/embed/yJYkIwIEmak" title="Animatic -- Western Chase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="502" height="282" src="https://www.youtube.com/embed/yJYkIwIEmak" title="Animatic -- Western Chase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
