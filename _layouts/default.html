@@ -14,55 +14,83 @@
     {% include analytics_head.html %}
 
     <!-- Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
 
     <style>
-     .thumbnail-gallery img {
-      width: 200px;  /* Adjust thumbnail size */
-      margin: 5px;
+    .thumbnail-gallery {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .thumbnail {
       cursor: pointer;
     }
 
+    .thumbnail img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 2px solid transparent;
+      transition: border 0.3s;
+    }
+
+    .thumbnail:hover img {
+      border: 2px solid #000;
+    }
+
     .full-size-gallery {
+      display: none;
       position: fixed;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       background-color: rgba(0, 0, 0, 0.8);
-      display: none;
       justify-content: center;
       align-items: center;
       z-index: 9999;
-      overflow: hidden; /* Prevent overflow of large images */
+      overflow: hidden;
     }
 
     .full-size-gallery img {
       max-width: 90%;
-      max-height: 90%;
-      display: none;
-      object-fit: contain; /* Ensure images maintain their aspect ratio */
+      max-height: 80%;
+      object-fit: contain;
+      display: none; /* Hide images by default */
     }
 
     .close-gallery {
       position: absolute;
       top: 20px;
       right: 20px;
-      padding: 10px;
       background-color: white;
       border: none;
+      padding: 10px;
       cursor: pointer;
       font-size: 18px;
-      z-index: 10000;  /* Ensure it's above the images */
-      color: #000;  /* Make sure the button text is visible */
     }
 
-    .slick-prev, .slick-next {
-      color: white;
+    .prev-image, .next-image {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
       font-size: 30px;
-      background: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 10px;
+      cursor: pointer;
     }
+
+    .prev-image {
+      left: 20px;
+    }
+
+    .next-image {
+      right: 20px;
+    }
+
     </style>
 
   </head>

@@ -23,33 +23,57 @@ Thumbnails:
 
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbnail Thumbs 1"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbnail Thumbs 2"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbnail Thumbs 3"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00004.png" alt="Thumbnail Thumbs 4"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00005.png" alt="Thumbnail Thumbs 5"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00006.png" alt="Thumbnail Thumbs 6"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00007.png" alt="Thumbnail Thumbs 7"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00008.png" alt="Thumbnail Thumbs 8"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbnail Thumbs 9"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbnail Thumbs 10"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbnail Thumbs 11"></div>
+  <div class="thumbnail" data-index="0">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbnail Thumbs 1">
+  </div>
+  <div class="thumbnail" data-index="1">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbnail Thumbs 2">
+  </div>
+  <div class="thumbnail" data-index="2">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbnail Thumbs 3">
+  </div>
+  <div class="thumbnail" data-index="3">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00004.png" alt="Thumbnail Thumbs 4">
+  </div>
+  <div class="thumbnail" data-index="4">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00005.png" alt="Thumbnail Thumbs 5">
+  </div>
+  <div class="thumbnail" data-index="5">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00006.png" alt="Thumbnail Thumbs 6">
+  </div>
+  <div class="thumbnail" data-index="6">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00007.png" alt="Thumbnail Thumbs 7">
+  </div>
+  <div class="thumbnail" data-index="7">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00008.png" alt="Thumbnail Thumbs 8">
+  </div>
+  <div class="thumbnail" data-index="8">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbnail Thumbs 9">
+  </div>
+  <div class="thumbnail" data-index="9">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbnail Thumbs 10">
+  </div>
+  <div class="thumbnail" data-index="10">
+    <img src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbnail Thumbs 11">
+  </div>
 </div>
 
 <!-- Full-size Image Viewer (initially hidden) -->
-<div class="full-size-gallery" style="display: none;">
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbs 1"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbs 2"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbs 3"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00004.png" alt="Thumbs 4"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00005.png" alt="Thumbs 5"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00006.png" alt="Thumbs 6"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00007.png" alt="Thumbs 7"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00008.png" alt="Thumbs 8"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbs 9"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbs 10"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbs 11"></div>
-  <button class="close-gallery">Close</button>
+<div class="full-size-gallery">
+  <button class="close-gallery">X</button>
+  <div class="image-container">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbs 1">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbs 2">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbs 3">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00004.png" alt="Thumbs 4">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00005.png" alt="Thumbs 5">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00006.png" alt="Thumbs 6">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00007.png" alt="Thumbs 7">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00008.png" alt="Thumbs 8">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbs 9">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbs 10">
+    <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbs 11">
+  </div>
 </div>
 
 ---
@@ -74,59 +98,55 @@ A fully-edited animatic can be seen below:
 
 
 <!-- Slick JS -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 
 
 <script>
 $(document).ready(function() {
-  // Initialize the thumbnail gallery with Slick
-  $('.thumbnail-gallery').slick({
-    slidesToShow: 4, // Adjust number of thumbnails shown
-    slidesToScroll: 1,
-    focusOnSelect: true, // Allow selection of thumbnails
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1
-        }
-      }
-    ]
+  // Show the full-size gallery when a thumbnail is clicked
+  $('.thumbnail').click(function() {
+    var index = $(this).data('index');  // Get the index of the clicked thumbnail
+    console.log("thumbnail clicked; index ", index);
+    showFullSizeImage(index);  // Show the corresponding full-size image
   });
 
-  // When a thumbnail is clicked, show the corresponding full-size image
-  $('.thumbnail-gallery div').click(function() {
-    var index = $(this).index();  // Get the index of the clicked thumbnail
-    console.log("Thumbnail clicked, index:", index);
-    // var fullSizeImages = $('.full-size-gallery .full-image');
-    
-    // // Hide all full-size images and show the one corresponding to the clicked thumbnail
-    // fullSizeImages.hide();
-    // $(fullSizeImages[index]).show();  // Show the full-size image based on the index
-    
-    // // Hide the thumbnails and show the full-size gallery
-    // $('.thumbnail-gallery').hide();
-    // $('.full-size-gallery').show();
+  // Show the full-size image gallery
+  function showFullSizeImage(index) {
+    var fullSizeImages = $('.full-size-gallery .full-image');
+    fullSizeImages.hide();  // Hide all images
 
-    // // Initialize the Slick carousel for the full-size gallery only once
-    // if (!$('.full-size-gallery').hasClass('slick-initialized')) {
-    //   $('.full-size-gallery').slick({
-    //     infinite: true,
-    //     arrows: true,  // Enable navigation arrows
-    //     prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-    //     nextArrow: '<button type="button" class="slick-next">Next</button>',
-    //     fade: true,  // Enable fade transition between images
-    //   });
-    // }
-  });
+    // Show the image corresponding to the clicked thumbnail
+    $(fullSizeImages[index]).show();
 
-  // Close the full-size gallery
+    // Show the full-size gallery
+    $('.thumbnail-gallery').hide();
+    $('.full-size-gallery').show();
+
+    // Store the current index for navigation
+    $('.full-size-gallery').data('currentIndex', index);
+  }
+
+  // Handle closing the gallery
   $('.close-gallery').click(function() {
     $('.full-size-gallery').hide();
     $('.thumbnail-gallery').show();
-    $('.full-size-gallery').slick('unslick'); // Destroy Slick on full-size gallery close
+  });
+
+  // Handle next image navigation
+  $('.next-image').click(function() {
+    var currentIndex = $('.full-size-gallery').data('currentIndex');
+    var totalImages = $('.full-size-gallery .full-image').length;
+    var nextIndex = (currentIndex + 1) % totalImages;  // Wrap around to first image
+    showFullSizeImage(nextIndex);  // Show the next image
+  });
+
+  // Handle previous image navigation
+  $('.prev-image').click(function() {
+    var currentIndex = $('.full-size-gallery').data('currentIndex');
+    var totalImages = $('.full-size-gallery .full-image').length;
+    var prevIndex = (currentIndex - 1 + totalImages) % totalImages;  // Wrap around to last image
+    showFullSizeImage(prevIndex);  // Show the previous image
   });
 });
 </script>
