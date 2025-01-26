@@ -153,6 +153,7 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
 ---
 ## Wedding | February 2023
 
+<div class="slideshow" id="wedding">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
@@ -193,10 +194,12 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>
 </div>
+</div>
 
 ---
 ## Launch Calculations | February 2023
 
+<div class="slideshow" id="launch_calc">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
@@ -237,10 +240,12 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>
 </div>
+</div>
 
 ---
 ## Spaghetti | February 2023
 
+<div class="slideshow" id="spaghetti">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
@@ -281,12 +286,14 @@ The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is 
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>ß
 </div>
+</div>
 
 
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
+<script src="../gallery.js"></script>
+<!-- <script>
 $(document).ready(function() {
     // Loop through each slideshow
     $('.slideshow').each(function() {
@@ -342,5 +349,5 @@ $(document).ready(function() {
     });
 });
 });
-</script>
+</script> -->
 

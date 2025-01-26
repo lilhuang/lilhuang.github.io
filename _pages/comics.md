@@ -4,6 +4,7 @@ title: Comics
 permalink: /comics/
 ---
 
+<div class="slideshow" id="lat_pulldown">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
   <div class="thumbnail" data-index="0">
@@ -36,6 +37,7 @@ permalink: /comics/
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>
 </div>
+</div>
 
 ---
 
@@ -46,55 +48,4 @@ permalink: /comics/
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function() {
-  // Show the full-size gallery when a thumbnail is clicked
-  $('.thumbnail').click(function() {
-    var index = $(this).data('index');  // Get the index of the clicked thumbnail
-    console.log("thumbnail clicked; index ", index);
-    showFullSizeImage(index);  // Show the corresponding full-size image
-  });
-
-  // Show the full-size image gallery
-  function showFullSizeImage(index) {
-    var fullSizeImages = $('.full-size-gallery .full-image');
-    fullSizeImages.hide();  // Hide all images
-
-    // Show the image corresponding to the clicked thumbnail
-    $(fullSizeImages[index]).show();
-
-    // Show the full-size gallery
-    $('.thumbnail-gallery').hide();
-    $('.full-size-gallery').show();
-
-    // Store the current index for navigation
-    $('.full-size-gallery').data('currentIndex', index);
-  }
-
-  // Handle closing the gallery
-  $('.close-gallery').click(function() {
-    $('.full-size-gallery').hide();
-    $('.thumbnail-gallery').show();
-  });
-
-  // Handle next image navigation
-  $('.next-image').click(function() {
-    var currentIndex = $('.full-size-gallery').data('currentIndex');
-    var totalImages = $('.full-size-gallery .full-image').length;
-    if ((currentIndex + 1) < totalImages) {
-        var nextIndex = (currentIndex + 1); 
-        showFullSizeImage(nextIndex);  // Show the next image
-    }
-  });
-
-  // Handle previous image navigation
-  $('.prev-image').click(function() {
-    var currentIndex = $('.full-size-gallery').data('currentIndex');
-    var totalImages = $('.full-size-gallery .full-image').length;
-    if ((currentIndex - 1) >= 0){
-        var prevIndex = (currentIndex - 1);
-        showFullSizeImage(prevIndex);  // Show the previous image
-    }
-  });
-});
-</script>
+<script src="../gallery.js"></script>
