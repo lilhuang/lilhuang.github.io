@@ -74,6 +74,8 @@ Thumbnails:
     <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbs 10">
     <img class="full-image" src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbs 11">
   </div>
+  <button class="prev-image">&#10094;</button>
+  <button class="next-image">&#10095;</button>
 </div>
 
 ---
