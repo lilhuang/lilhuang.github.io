@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="../images/my_images/Me_August_2022.JPG" alt="Me" class="myface" onmouseover="switch2Cartoon(this)" onmouseout="switchBack(this)"/>
+<img src="../images/me/Me_August_2022.JPG" alt="Me" class="myface" onmouseover="switch2Cartoon(this)" onmouseout="switchBack(this)"/>
 
 Hi[!](https://lilhuang.github.io/outtake_photos/) My name is Lillian and I am based in Ann Arbor, Michigan. I am many things:
 
