@@ -17,7 +17,6 @@ This was a personal project from the StoryboardArt Story Mentorship.
 
 A fully-edited animatic can be seen below:
 
-
 <iframe width="753" height="423" src="https://www.youtube.com/embed/bhL5Gn70Ngg" title="Animatic -- Holmes and Moriarty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
