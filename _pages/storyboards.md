@@ -21,23 +21,8 @@ A fully-edited animatic can be seen below:
 
 Thumbnails:
 
-<!-- Main slider (large images) -->
-<div class="main-slider">
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbs 1"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbs 2"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbs 3"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00004.png" alt="Thumbs 4"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00005.png" alt="Thumbs 5"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00006.png" alt="Thumbs 6"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00007.png" alt="Thumbs 7"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00008.png" alt="Thumbs 8"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbs 9"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbs 10"></div>
-  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbs 11"></div>
-</div>
-
-<!-- Thumbnail slider (small images) -->
-<div class="thumbnail-slider">
+<!-- Thumbnail Gallery -->
+<div class="thumbnail-gallery">
   <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbnail Thumbs 1"></div>
   <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbnail Thumbs 2"></div>
   <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbnail Thumbs 3"></div>
@@ -49,6 +34,22 @@ Thumbnails:
   <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbnail Thumbs 9"></div>
   <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbnail Thumbs 10"></div>
   <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbnail Thumbs 11"></div>
+</div>
+
+<!-- Full-size Image Viewer (initially hidden) -->
+<div class="full-size-gallery" style="display: none;">
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00001.png" alt="Thumbs 1"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00002.png" alt="Thumbs 2"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00003.png" alt="Thumbs 3"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00004.png" alt="Thumbs 4"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00005.png" alt="Thumbs 5"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00006.png" alt="Thumbs 6"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00007.png" alt="Thumbs 7"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00008.png" alt="Thumbs 8"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00009.png" alt="Thumbs 9"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00010.png" alt="Thumbs 10"></div>
+  <div><img src="../images/thumbs/Holmes_And_Moriarty/frame_00011.png" alt="Thumbs 11"></div>
+  <button class="close-gallery">Close</button>
 </div>
 
 ---
@@ -75,25 +76,49 @@ A fully-edited animatic can be seen below:
 
 <script>
 $(document).ready(function(){
-  // Main slider
-  var $mainSlider = $('.main-slider').slick({
-    slidesToShow: 1,
+  // Initialize the thumbnail gallery with Slick
+  $('.thumbnail-gallery').slick({
+    slidesToShow: 4,  // Adjust this to how many thumbnails you want visible at a time
     slidesToScroll: 1,
-    arrows: false,      // Hide arrows in main slider
-    fade: true,         // Fade transition effect
-    asNavFor: '.thumbnail-slider'  // Sync with the thumbnail slider
+    focusOnSelect: true,  // Allow users to click and select a thumbnail
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
-  // Thumbnail slider
-  $('.thumbnail-slider').slick({
-    slidesToShow: 5,   // Show 5 thumbnails at once
-    slidesToScroll: 1,
-    asNavFor: '.main-slider',  // Sync with the main slider
-    dots: true,         // Optional: dots for navigation
-    focusOnSelect: true,  // Clicking on a thumbnail changes the main slider
-    centerMode: true,   // Centers the active thumbnail
-    centerPadding: '0', // No padding around active thumbnail
-    variableWidth: true // Optional: allows variable width for thumbnails
+  // Click event on thumbnail to show the full-size image
+  $('.thumbnail-gallery div').click(function() {
+    var index = $(this).index();
+    var fullSizeImages = $('.full-size-gallery .full-image');
+    
+    // Hide the thumbnails and show the full-size gallery
+    $('.thumbnail-gallery').hide();
+    $('.full-size-gallery').show();
+
+    // Show the selected full-size image
+    fullSizeImages.hide();
+    $(fullSizeImages[index]).show();
+  });
+
+  // Close the full-size image gallery
+  $('.close-gallery').click(function() {
+    $('.full-size-gallery').hide();
+    $('.thumbnail-gallery').show();
+  });
+
+  // Initialize the full-size gallery with Slick for navigation arrows
+  $('.full-size-gallery').slick({
+    infinite: true,
+    arrows: true,  // Enable left and right arrows
+    prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+    nextArrow: '<button type="button" class="slick-next">Next</button>',
+    fade: true  // Optional: Make the full-size images fade between each other
   });
 });
 </script>

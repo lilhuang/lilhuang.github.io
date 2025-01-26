@@ -18,20 +18,46 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
     <style>
-      .main-slider img {
-        width: 100%;  /* Makes the images in the main slider responsive */
-        height: auto;
-      }
-    
-      .thumbnail-slider img {
-        width: 100%;  /* Makes thumbnails responsive */
-        height: auto;
-        cursor: pointer;
-      }
-    
-      .thumbnail-slider {
-        margin-top: 10px;
-      }
+     .thumbnail-gallery img {
+      width: 100px;  /* Adjust thumbnail size */
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .full-size-gallery {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .full-size-gallery img {
+      max-width: 90%;
+      max-height: 90%;
+      display: none;
+    }
+
+    .close-gallery {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px;
+      background-color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .slick-prev, .slick-next {
+      color: white;
+      font-size: 30px;
+      background: rgba(0, 0, 0, 0.5);
+    }
     </style>
 
     <!-- Slick JS -->
