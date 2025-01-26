@@ -35,12 +35,14 @@
       justify-content: center;
       align-items: center;
       z-index: 9999;
+      overflow: hidden; /* Prevent overflow of large images */
     }
 
     .full-size-gallery img {
       max-width: 90%;
       max-height: 90%;
       display: none;
+      object-fit: contain; /* Ensure images maintain their aspect ratio */
     }
 
     .close-gallery {
@@ -51,6 +53,9 @@
       background-color: white;
       border: none;
       cursor: pointer;
+      font-size: 18px;
+      z-index: 10000;  /* Ensure it's above the images */
+      color: #000;  /* Make sure the button text is visible */
     }
 
     .slick-prev, .slick-next {
@@ -59,10 +64,6 @@
       background: rgba(0, 0, 0, 0.5);
     }
     </style>
-
-    <!-- Slick JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   </head>
 
