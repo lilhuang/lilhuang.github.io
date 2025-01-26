@@ -291,7 +291,7 @@ $(document).ready(function() {
     // Loop through each slideshow
     $('.slideshow').each(function() {
     var slideshowId = $(this).attr('id');  // Get the unique ID for each slideshow
-    console.log(slideshowId)
+    console.log(slideshowId);
 
     // Handle thumbnail click to open the full-size gallery
     $(this).find('.thumbnail').click(function() {
