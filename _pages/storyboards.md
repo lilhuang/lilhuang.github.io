@@ -94,14 +94,193 @@ A fully-edited animatic can be seen below:
 
 <iframe width="753" height="423" src="https://www.youtube.com/embed/yJYkIwIEmak" title="Animatic -- Western Chase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+---
+# Next 5 Exercises
+
+The [Next 5 Exercise](https://submarinechannel.com/top5/next-5-story-games/) is a story game/warm-up exercise in which you takes a random photo, come up with a little story to go with it, then draw the next 5 story beats. Below are a few that I've done for the Brainstorm SB1 course.
+
+## Pier Jump | February 2023
+
+<!-- Thumbnail Gallery -->
+<div class="thumbnail-gallery">
+  <div class="thumbnail" data-index="0">
+    <img src="../images/thumbs/Next_5_Pier_Jump/next5_pier_jump_img.JPG" alt="Pier Jump Thumbs orig">
+  </div>
+  <div class="thumbnail" data-index="1">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_0.PNG" alt="Pier Jump Thumbs 0">
+  </div>
+  <div class="thumbnail" data-index="2">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_1.PNG" alt="Pier Jump Thumbs 1">
+  </div>
+  <div class="thumbnail" data-index="3">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_2.PNG" alt="Pier Jump Thumbs 2">
+  </div>
+  <div class="thumbnail" data-index="4">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_3.PNG" alt="Pier Jump Thumbs 3">
+  </div>
+  <div class="thumbnail" data-index="5">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_4.PNG" alt="Pier Jump Thumbs 4">
+  </div>
+  <div class="thumbnail" data-index="6">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_5.PNG" alt="Pier Jump Thumbs 5">
+  </div>
+  <div class="thumbnail" data-index="7">
+    <img src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_6.PNG" alt="Pier Jump Thumbs 6">
+  </div>
+</div>
+
+<!-- Full-size Image Viewer (initially hidden) -->
+<div class="full-size-gallery">
+  <button class="close-gallery">X</button>
+  <div class="image-container">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/next5_pier_jump_img.JPG" alt="Pier Jump Orig">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_0.PNG" alt="Pier Jump 0">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_1.PNG" alt="Pier Jump 1">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_2.PNG" alt="Pier Jump 2">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_3.PNG" alt="Pier Jump 3">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_4.PNG" alt="Pier Jump 4">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_5.PNG" alt="Pier Jump 5">
+    <img class="full-image" src="../images/thumbs/Next_5_Pier_Jump/Next_5_Pier_Jump_6.PNG" alt="Pier Jump 6">
+  </div>
+  <button class="prev-image">&#10094;</button>
+  <button class="next-image">&#10095;</button>
+</div>
+
+
+---
+## Wedding | February 2023
+
+<!-- Thumbnail Gallery -->
+<div class="thumbnail-gallery">
+  <div class="thumbnail" data-index="0">
+    <img src="../images/thumbs/Next_5_Wedding/next5_wedding_img.JPG" alt="Wedding Thumbs orig">
+  </div>
+  <div class="thumbnail" data-index="1">
+    <img src="../images/thumbs/Next_5_Wedding/Next_5_wedding_0.PNG" alt="Wedding Thumbs 0">
+  </div>
+  <div class="thumbnail" data-index="2">
+    <img src="../images/thumbs/Next_5_Wedding/Next_5_wedding_1.PNG" alt="Wedding Thumbs 1">
+  </div>
+  <div class="thumbnail" data-index="3">
+    <img src="../images/thumbs/Next_5_Wedding/Next_5_wedding_2.PNG" alt="Wedding Thumbs 2">
+  </div>
+  <div class="thumbnail" data-index="4">
+    <img src="../images/thumbs/Next_5_Wedding/Next_5_wedding_3.PNG" alt="Wedding Thumbs 3">
+  </div>
+  <div class="thumbnail" data-index="5">
+    <img src="../images/thumbs/Next_5_Wedding/Next_5_wedding_4.PNG" alt="Wedding Thumbs 4">
+  </div>
+  <div class="thumbnail" data-index="6">
+    <img src="../images/thumbs/Next_5_Wedding/Next_5_wedding_5.PNG" alt="Wedding Thumbs 5">
+  </div>
+</div>
+
+<!-- Full-size Image Viewer (initially hidden) -->
+<div class="full-size-gallery">
+  <button class="close-gallery">X</button>
+  <div class="image-container">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/next5_wedding_img.JPG" alt="Wedding Orig">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/Next_5_wedding_0.PNG" alt="Wedding 0">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/Next_5_wedding_1.PNG" alt="Wedding 1">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/Next_5_wedding_2.PNG" alt="Wedding 2">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/Next_5_wedding_3.PNG" alt="Wedding 3">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/Next_5_wedding_4.PNG" alt="Wedding 4">
+    <img class="full-image" src="../images/thumbs/Next_5_Wedding/Next_5_wedding_5.PNG" alt="Wedding 5">
+  </div>
+  <button class="prev-image">&#10094;</button>
+  <button class="next-image">&#10095;</button>
+</div>
+
+---
+## Launch Calculations | February 2023
+
+<!-- Thumbnail Gallery -->
+<div class="thumbnail-gallery">
+  <div class="thumbnail" data-index="0">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/next5_launch_calculations_img.JPG" alt="Launch Calculations Thumbs orig">
+  </div>
+  <div class="thumbnail" data-index="1">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_0.PNG" alt="Launch Calculations Thumbs 0">
+  </div>
+  <div class="thumbnail" data-index="2">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_1.PNG" alt="Launch Calculations Thumbs 1">
+  </div>
+  <div class="thumbnail" data-index="3">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_2.PNG" alt="Launch Calculations Thumbs 2">
+  </div>
+  <div class="thumbnail" data-index="4">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_3.PNG" alt="Launch Calculations Thumbs 3">
+  </div>
+  <div class="thumbnail" data-index="5">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_4.PNG" alt="Launch Calculations Thumbs 4">
+  </div>
+  <div class="thumbnail" data-index="6">
+    <img src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_5.PNG" alt="Launch Calculations Thumbs 5">
+  </div>
+</div>
+
+<!-- Full-size Image Viewer (initially hidden) -->
+<div class="full-size-gallery">
+  <button class="close-gallery">X</button>
+  <div class="image-container">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/next5_launch_calculations_img.JPG" alt="Launch Calculations Orig">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_0.PNG" alt="Launch Calculations 0">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_1.PNG" alt="Launch Calculations 1">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_2.PNG" alt="Launch Calculations 2">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_3.PNG" alt="Launch Calculations 3">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_4.PNG" alt="Launch Calculations 4">
+    <img class="full-image" src="../images/thumbs/Next_5_Launch_Calculations/Next_5_launch_calculations_5.PNG" alt="Launch Calculations 5">
+  </div>
+  <button class="prev-image">&#10094;</button>
+  <button class="next-image">&#10095;</button>
+</div>
+
+---
+## Spaghetti | February 2023
+
+<!-- Thumbnail Gallery -->
+<div class="thumbnail-gallery">
+  <div class="thumbnail" data-index="0">
+    <img src="../images/thumbs/Next_5_Spaghetti/next5_spaghetti_img.JPG" alt="Spaghetti Thumbs orig">
+  </div>
+  <div class="thumbnail" data-index="1">
+    <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_0.PNG" alt="Spaghetti Thumbs 0">
+  </div>
+  <div class="thumbnail" data-index="2">
+    <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_1.PNG" alt="Spaghetti Thumbs 1">
+  </div>
+  <div class="thumbnail" data-index="3">
+    <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_2.PNG" alt="Spaghetti Thumbs 2">
+  </div>
+  <div class="thumbnail" data-index="4">
+    <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_3.PNG" alt="Spaghetti Thumbs 3">
+  </div>
+  <div class="thumbnail" data-index="5">
+    <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_4.PNG" alt="Spaghetti Thumbs 4">
+  </div>
+  <div class="thumbnail" data-index="6">
+    <img src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_5.PNG" alt="Spaghetti Thumbs 5">
+  </div>
+</div>
+
+<!-- Full-size Image Viewer (initially hidden) -->
+<div class="full-size-gallery">
+  <button class="close-gallery">X</button>
+  <div class="image-container">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/next5_spaghetti_img.JPG" alt="Spaghetti Orig">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_0.PNG" alt="Spaghetti 0">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_1.PNG" alt="Spaghetti 1">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_2.PNG" alt="Spaghetti 2">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_3.PNG" alt="Spaghetti 3">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_4.PNG" alt="Spaghetti 4">
+    <img class="full-image" src="../images/thumbs/Next_5_Spaghetti/Next_5_spaghetti_5.PNG" alt="Spaghetti 5">
+  </div>
+  <button class="prev-image">&#10094;</button>
+  <button class="next-image">&#10095;</button>ß
+</div>
 
 
 
-
-
-<!-- Slick JS -->
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
