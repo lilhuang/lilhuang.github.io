@@ -10,7 +10,10 @@ A drama sequence (loosely) adapted from Sir Arthur Conan Doyle's *The Final Prob
 
 This was a personal project from my StoryboardArt Story Mentorship, which ran from January 2024 -- January 2025.
 
-https://speakerdeck.com/oembed.json?url=https://https://speakerdeck.com/lilhuang113/holmes-and-moriarty
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.1972%;">
+<iframe src="https://speakerdeck.com/lilhuang113/holmes-and-moriarty" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">
+</iframe>
+</div>
 
 A fully-edited animatic can be seen below:
 
