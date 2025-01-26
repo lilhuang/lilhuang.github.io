@@ -291,10 +291,10 @@ $(document).ready(function() {
     // Loop through each slideshow
     $('.slideshow').each(function() {
     var slideshowId = $(this).attr('id');  // Get the unique ID for each slideshow
-    console.log(slideshowId);
 
     // Handle thumbnail click to open the full-size gallery
     $(this).find('.thumbnail').click(function() {
+      console.log(slideshowId);
       var index = $(this).data('index');  // Get the index of the clicked thumbnail
       showFullSizeImage(slideshowId, index);  // Show the corresponding full-size image for this slideshow
     });
