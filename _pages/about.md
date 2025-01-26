@@ -20,10 +20,10 @@ Sometimes I do some [other](https://lilhuang.github.io/for_fun/) <span style="co
 
 <script>
     function switch2Cartoon(x) {
-        x.src="../images/my_images/Me_doodle_2021.jpg";
+        x.src="../images/me/Me_doodle_2021.jpg";
     }
 
     function switchBack(x) {
-        x.src="../images/my_images/Me_August_2022.JPG";
+        x.src="../images/me/Me_August_2022.JPG";
     }
 </script>
