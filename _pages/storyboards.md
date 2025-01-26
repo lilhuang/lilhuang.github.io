@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Storyboards
-permalink: /Storyboards/
+permalink: /storyboards/
 ---
 
 # Holmes and Moriarty | January 2025
