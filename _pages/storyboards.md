@@ -79,12 +79,12 @@ A fully-edited animatic can be seen below:
 
 
 <script>
-$(document).ready(function(){
+$(document).ready(function() {
   // Initialize the thumbnail gallery with Slick
   $('.thumbnail-gallery').slick({
-    slidesToShow: 4,  // Adjust this to how many thumbnails you want visible at a time
+    slidesToShow: 4, // Adjust number of thumbnails shown
     slidesToScroll: 1,
-    focusOnSelect: true,  // Allow users to click and select a thumbnail
+    focusOnSelect: true, // Allow selection of thumbnails
     responsive: [
       {
         breakpoint: 768,
@@ -96,33 +96,36 @@ $(document).ready(function(){
     ]
   });
 
-  // Click event on thumbnail to show the full-size image
+  // When a thumbnail is clicked, show the corresponding full-size image
   $('.thumbnail-gallery div').click(function() {
-    var index = $(this).index();
+    var index = $(this).index();  // Get the index of the clicked thumbnail
     var fullSizeImages = $('.full-size-gallery .full-image');
+    
+    // Hide all full-size images and show the one corresponding to the clicked thumbnail
+    fullSizeImages.hide();
+    $(fullSizeImages[index]).show();  // Show the full-size image based on the index
     
     // Hide the thumbnails and show the full-size gallery
     $('.thumbnail-gallery').hide();
     $('.full-size-gallery').show();
 
-    // Show the selected full-size image
-    fullSizeImages.hide();
-    $(fullSizeImages[index]).show();
+    // Initialize the Slick carousel for the full-size gallery only once
+    if (!$('.full-size-gallery').hasClass('slick-initialized')) {
+      $('.full-size-gallery').slick({
+        infinite: true,
+        arrows: true,  // Enable navigation arrows
+        prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+        nextArrow: '<button type="button" class="slick-next">Next</button>',
+        fade: true,  // Enable fade transition between images
+      });
+    }
   });
 
-  // Close the full-size image gallery
+  // Close the full-size gallery
   $('.close-gallery').click(function() {
     $('.full-size-gallery').hide();
     $('.thumbnail-gallery').show();
-  });
-
-  // Initialize the full-size gallery with Slick for navigation arrows
-  $('.full-size-gallery').slick({
-    infinite: true,
-    arrows: true,  // Enable left and right arrows
-    prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-    nextArrow: '<button type="button" class="slick-next">Next</button>',
-    fade: true  // Optional: Make the full-size images fade between each other
+    $('.full-size-gallery').slick('unslick'); // Destroy Slick on full-size gallery close
   });
 });
 </script>
