@@ -20,7 +20,7 @@ Sometimes I do some [other](https://lilhuang.github.io/for_fun/) <span style="co
 
 <script>
     function switch2Cartoon(x) {
-        x.src="../images/me/Me_doodle_2021.jpg";
+        x.src="../images/me/Me_doodle_2022.JPG";
     }
 
     function switchBack(x) {
