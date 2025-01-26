@@ -293,7 +293,7 @@ $(document).ready(function() {
     var slideshowId = $(this).attr('id');  // Get the unique ID for each slideshow
 
     // Handle thumbnail click to open the full-size gallery
-    $(this).find('.thumbnail').click(function() {
+    $(this).find('.thumbnail-gallery .thumbnail').click(function() {
       console.log(slideshowId);
       var index = $(this).data('index');  // Get the index of the clicked thumbnail
       showFullSizeImage(slideshowId, index);  // Show the corresponding full-size image for this slideshow
