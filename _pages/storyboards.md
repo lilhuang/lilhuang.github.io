@@ -10,15 +10,15 @@ A drama sequence (loosely) adapted from Sir Arthur Conan Doyle's *The Final Prob
 
 This was a personal project from the StoryboardArt Story Mentorship.
 
-<div style="top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 500; position: relative; padding-bottom: 5%; margin: auto;">
-<iframe src="https://speakerdeck.com/player/1452122a26a64492855944e36050dde7" style="top: 0; left: 0; width: 75%; height: 75%; position: absolute; border: 0;" allowfullscreen scrolling="no">
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9296%;">
+<iframe src="https://speakerdeck.com/player/1452122a26a64492855944e36050dde7" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">
 </iframe>
 </div>
 
 A fully-edited animatic can be seen below:
 
 
-<iframe width="502" height="282" src="https://www.youtube.com/embed/bhL5Gn70Ngg" title="Animatic -- Holmes and Moriarty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="753" height="423" src="https://www.youtube.com/embed/bhL5Gn70Ngg" title="Animatic -- Holmes and Moriarty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## Western Chase | October 2024
@@ -27,11 +27,14 @@ An action chase sequence set in the old West, where our two heroes try to lose t
 
 This was an assignment from the StoryboardArt Story Mentorship, adapted from a scene from *Star Wars Rebels*.
 
-[INSERT HERE]
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.338%;">
+<iframe src="https://speakerdeck.com/player/ed2e24d20fe94e099f2bab9d8ef0bcf9" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no">
+</iframe>
+</div>
 
 A fully-edited animatic can be seen below:
 
-<iframe width="502" height="282" src="https://www.youtube.com/embed/yJYkIwIEmak" title="Animatic -- Western Chase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="753" height="423" src="https://www.youtube.com/embed/yJYkIwIEmak" title="Animatic -- Western Chase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
