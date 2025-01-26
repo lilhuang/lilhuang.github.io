@@ -293,7 +293,7 @@ $(document).ready(function() {
     var slideshowId = $(this).attr('id');  // Get the unique ID for each slideshow
 
     // Handle thumbnail click to open the full-size gallery
-    $(this).find('.thumbnail-gallery .thumbnail').click(function() {
+    $(this).find('.thumbnail').click(function() {
       console.log(slideshowId);
       var index = $(this).data('index');  // Get the index of the clicked thumbnail
       showFullSizeImage(slideshowId, index);  // Show the corresponding full-size image for this slideshow
@@ -308,23 +308,23 @@ $(document).ready(function() {
         $(fullSizeImages[index]).show();
 
         // Show the full-size gallery
-        $('#' + slideshowId + '.thumbnail-gallery').hide();
-        $('#' + slideshowId + '.full-size-gallery').show();
+        $('#' + slideshowId + ' .thumbnail-gallery').hide();
+        $('#' + slideshowId + ' .full-size-gallery').show();
 
         // Store the current index for navigation
-        $('#' + slideshowId + '.full-size-gallery').data('currentIndex', index);
+        $('#' + slideshowId + ' .full-size-gallery').data('currentIndex', index);
     }
 
     // Handle closing the gallery
     $('.close-gallery').click(function() {
-        $('#' + slideshowId + '.full-size-gallery').hide();
-        $('#' + slideshowId + '.thumbnail-gallery').show();
+        $('#' + slideshowId + ' .full-size-gallery').hide();
+        $('#' + slideshowId + ' .thumbnail-gallery').show();
     });
 
     // Handle next image navigation
     $('#' + slideshowId + '.next-image').click(function() {
-        var currentIndex = $('#' + slideshowId + '.full-size-gallery').data('currentIndex');
-        var totalImages = $('#' + slideshowId + '.full-size-gallery .full-image').length;
+        var currentIndex = $('#' + slideshowId + ' .full-size-gallery').data('currentIndex');
+        var totalImages = $('#' + slideshowId + ' .full-size-gallery .full-image').length;
         if ((currentIndex + 1) < totalImages) {
             var nextIndex = (currentIndex + 1); 
             showFullSizeImage(slideshowId, nextIndex);  // Show the next image
@@ -333,8 +333,8 @@ $(document).ready(function() {
 
     // Handle previous image navigation
     $('#' + slideshowId + '.prev-image').click(function() {
-        var currentIndex = $('#' + slideshowId + '.full-size-gallery').data('currentIndex');
-        var totalImages = $('#' + slideshowId + '.full-size-gallery .full-image').length;
+        var currentIndex = $('#' + slideshowId + ' .full-size-gallery').data('currentIndex');
+        var totalImages = $('#' + slideshowId + ' .full-size-gallery .full-image').length;
         if ((currentIndex - 1) >= 0){
             var prevIndex = (currentIndex - 1);
             showFullSizeImage(slideshowId, prevIndex);  // Show the previous image
