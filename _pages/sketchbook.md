@@ -4,6 +4,8 @@ title: Sketchbook
 permalink: /sketchbook/
 ---
 
+Cafe sketches, airport sketches, slice-of-life. Mostly just trying to capture it all while I still can.
+
 <div class="slideshow" id="sketchbook">
 <!-- Thumbnail Gallery -->
 <div class="thumbnail-gallery">
