@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     // Show the full-size image gallery
     function showFullSizeImage(slideshowId, index) {
-        $('#' + slideshowId + ' .full-size-gallery').style.display = 'block';
+        // $('#' + slideshowId + ' .full-size-gallery').style.display = 'block';
 
         var fullSizeImages = $('#' + slideshowId + ' .full-size-gallery .full-image');
         fullSizeImages.hide();  // Hide all images
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     // Handle closing the gallery
     $('.close-gallery').click(function() {
-        $('#' + slideshowId + ' .full-size-gallery').style.display = 'none';
+        // $('#' + slideshowId + ' .full-size-gallery').style.display = 'none';
         $('#' + slideshowId + ' .full-size-gallery').hide();
         $('#' + slideshowId + ' .thumbnail-gallery').show();
     });
