@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What I Like To Do For Fun
-permalink: /for_fun/
+permalink: /for_fun_old/
 ---
 
 ## Art
