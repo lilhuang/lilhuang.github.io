@@ -3,6 +3,8 @@ $(document).ready(function() {
     $('.slideshow').each(function() {
     var slideshowId = $(this).attr('id');  // Get the unique ID for each slideshow
 
+    // $(this).find(' .full-size-gallery').hide();
+
     // Handle thumbnail click to open the full-size gallery
     $(this).find(' .thumbnail-gallery .thumbnail').click(function() {
       console.log(slideshowId);
