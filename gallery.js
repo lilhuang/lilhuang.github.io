@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     // Show the full-size image gallery
     function showFullSizeImage(slideshowId, index) {
-        $('#' + slideshowId + ' .full-size-gallery').style.display = 'flex';
+        $('#' + slideshowId + ' .full-size-gallery').style.display = 'block';
 
         var fullSizeImages = $('#' + slideshowId + ' .full-size-gallery .full-image');
         fullSizeImages.hide();  // Hide all images
