@@ -4,7 +4,7 @@ title: Sketchbook
 permalink: /sketchbook/
 ---
 
-Cafe sketches, airport sketches, slice-of-life. Mostly just trying to capture it all while I still can.
+Cafe sketches, airport sketches, slice-of-life. Trying to capture all the small joys and quirks found in the everyday.
 
 <div class="slideshow" id="sketchbook">
 <!-- Thumbnail Gallery -->
