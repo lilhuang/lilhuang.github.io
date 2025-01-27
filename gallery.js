@@ -23,9 +23,6 @@ $(document).ready(function() {
         // Show the full-size gallery
         // $('#' + slideshowId + ' .thumbnail-gallery').hide();
         $('#' + slideshowId + ' .full-size-gallery').show();
-        // if ($('#' + slideshowId + ' .full-size-gallery').style.display === "none") {
-        //     $('#' + slideshowId + ' .full-size-gallery').style.display = "flex";
-        // }
 
         // Store the current index for navigation
         $('#' + slideshowId + ' .full-size-gallery').data('currentIndex', index);
@@ -35,7 +32,6 @@ $(document).ready(function() {
     $('.close-gallery').click(function() {
         $('#' + slideshowId + ' .full-size-gallery').hide();
         $('#' + slideshowId + ' .thumbnail-gallery').show();
-        // $('#' + slideshowId + ' .full-size-gallery').style.display = "none";
     });
 
     // Handle next image navigation
