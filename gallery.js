@@ -21,7 +21,9 @@ $(document).ready(function() {
         // Show the full-size gallery
         // $('#' + slideshowId + ' .thumbnail-gallery').hide();
         $('#' + slideshowId + ' .full-size-gallery').show();
-        $('#' + slideshowId + ' .full-size-gallery').style.display = "flex";
+        if ($('#' + slideshowId + ' .full-size-gallery').style.display === "none") {
+            $('#' + slideshowId + ' .full-size-gallery').style.display = "flex";
+        }
 
         // Store the current index for navigation
         $('#' + slideshowId + ' .full-size-gallery').data('currentIndex', index);
