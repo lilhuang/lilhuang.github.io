@@ -9,6 +9,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/icons/favicon-32x32.png">
     {% include analytics_head.html %}
@@ -50,14 +52,14 @@
       overflow: hidden;
     }
 
-    .full-size-gallery img {
+    /* .full-size-gallery img {
       position: relative;
       max-width: 40%;
       max-height: 40%;
       object-fit: contain;
-      display: none; /* Hide images by default */
+      display: none;
       margin: auto;
-    }
+    } */
 
     .close-gallery {
       position: absolute;
