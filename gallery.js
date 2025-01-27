@@ -29,7 +29,6 @@ $(document).ready(function() {
 
     // Handle closing the gallery
     $('.close-gallery').click(function() {
-        $('#' + slideshowId + ' .full-size-gallery').style.display = 'none';
         $('#' + slideshowId + ' .full-size-gallery').hide();
         $('#' + slideshowId + ' .thumbnail-gallery').show();
     });
