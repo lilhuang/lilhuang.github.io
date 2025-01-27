@@ -4,4 +4,4 @@ title: CV
 permalink: /cv/
 ---
 
-[Here](../docs/CV.pdf) is  a link to my CV.
+Here are links to my [work CV](../docs/Industry_Resume_Jan_2025.pdf) and my [story CV](../docs/Story_Resume_Jan_2025.pdf).
