@@ -24,13 +24,13 @@ Cafe sketches, airport sketches, slice-of-life. Mostly just trying to capture it
 </div>
 
 <!-- Full-size Image Viewer (initially hidden) -->
-<div class="full-size-gallery flex justify-center items-center h-screen">
+<div class="full-size-gallery tailwind-container">
   <button class="close-gallery">X</button>
   <div class="image-container">
-    <img class="full-image object-contain max-w-full max-h-full" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-2.PNG" alt="DTW SNA 1">
-    <img class="full-image object-contain max-w-full max-h-full" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-3.PNG" alt="DTW SNA 2">
-    <img class="full-image object-contain max-w-full max-h-full" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-4.PNG" alt="DTW SNA 3">
-    <img class="full-image object-contain max-w-full max-h-full" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-5.PNG" alt="DTW SNA 4">
+    <img class="full-image tailwind-img" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-2.PNG" alt="DTW SNA 1">
+    <img class="full-image tailwind-img" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-3.PNG" alt="DTW SNA 2">
+    <img class="full-image tailwind-img" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-4.PNG" alt="DTW SNA 3">
+    <img class="full-image tailwind-img" src="../images/sketchbook/DTW_→_SNA_→_DTW_Sept_2024-5.PNG" alt="DTW SNA 4">
   </div>
   <button class="prev-image">&#10094;</button>
   <button class="next-image">&#10095;</button>
