@@ -14,5 +14,24 @@ I used to do synchronized swimming. I miss the teamwork and the sparkly suits. I
 
 ## Consuming Media
 
-Growing up, my family did not have any channels beyond what was offered in the most basic cable package. Subsequently, my media knowledge spanned mostly books, a few Disney movies on VHS, and whatever was offered on PBS. But although I didn't get to watch _Hannah Montana_ or _Totally Spies_ until I wormed my way in front of my friends' TV sets, I did get to watch a lot of great films growing up thanks to the local Detroit public TV programming. There was program every Friday night where the host picked a classic film, discussed it for a short time, then screened it on TV. I watched everything from _North by Northwest_ to _Singin' in the Rain_ to _The Hustler_ to _The Great Escape_ to the original _Ocean's 11_ (before Steven Soderbergh slicked it up with a frankly killer bassline), just to name a few. This PBS program single-handedly introduced me to fine filmmaking and jump-started my interest in learning more about it, not to mention consuming more of it.
+Some of my all-time favorite things I have consumed, in no particular order:
+
+Films:
+* Ratatouille
+* Past Lives
+* The Magnificent Seven (1960)
+* Dog Day Afternoon
+* My Fair Lady
+* House of Flying Daggers
+* 12 Angry Men
+* Looper
+* Strangers on a Train
+
+TV:
+* Review
+* Silicon Valley
+* Over the Garden Wall
+* 3rd Rock From The Sun
+* Blue Eye Samurai
+* Tom and Jerry (Hanna-Barbera era)
 
